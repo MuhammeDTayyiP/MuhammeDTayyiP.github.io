@@ -111,9 +111,10 @@ btn.addEventListener("mouseover", function() {
         btn.style.transform = `translate(-100px, 0px)`; // Butonu sola kaydır
         isMoved = true; // Bayrağı güncelle
     } else {
-        btn.style.transform = `translate(100px, 0px)`; // Butonu başlangıç pozisyonuna geri getir
+        btn.style.transform = `translate(50px, 0px)`; // Butonu başlangıç pozisyonuna geri getir
         isMoved = false; // Bayrağı güncelle
     }
+
     
     btn.style.transition = "all 0.3s ease"; // Geçiş efektini ayarla
 });
@@ -124,9 +125,10 @@ btn.addEventListener("click", function() {
         btn.style.transform = `translate(-100px, 0px)`; // Butonu sola kaydır
         isMoved = true; // Bayrağı güncelle
     } else {
-        btn.style.transform = `translate(100px, 0px)`; // Butonu başlangıç pozisyonuna geri getir
+        btn.style.transform = `translate(50px, 0px)`; // Butonu başlangıç pozisyonuna geri getir
         isMoved = false; // Bayrağı güncelle
     }
+
     
     btn.style.transition = "all 0.3s ease"; // Geçiş efektini ayarla
 });

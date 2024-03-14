@@ -29,13 +29,6 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 768px) {
-  /* Mobil ekran boyutları için stil tanımları */
-  .square {
-      width: 400px;
-      margin: 0 auto;
-  }
-}
 
 
 .title span {
@@ -156,6 +149,8 @@
     align-items: center;
     bottom: 320px;
     margin: 20px;
+    top: 60%; /* Üstten merkezlemek için */
+    left: 0%; /* Soldan merkezlemek için */
   }
   .buttons button{
     margin-right:8%;
