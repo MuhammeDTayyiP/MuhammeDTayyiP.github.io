@@ -118,6 +118,7 @@ btn.addEventListener("mouseover", function() {
     btn.style.transition = "all 0.3s ease"; // Geçiş efektini ayarla
 });
 
+
 btn.addEventListener("click", function() {
     if (!isMoved) {
         btn.style.transform = `translate(-100px, 0px)`; // Butonu sola kaydır
